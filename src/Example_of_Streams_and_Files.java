@@ -15,10 +15,8 @@ public class Example_of_Streams_and_Files {
         //создаем объект класса Random.
         Random random = new Random();
         //создаем объект класса Path для указания на файлов-записи
-        final Path pathFirstAdding = Paths.get("C:\\Users\\M.Kovalek\\IdeaProjects\\Example_of_Streams_and_Files\\src\\" +
-                "fileForWritingRandomNumbers.txt");
-        final Path pathSecondAdding = Paths.get("C:\\Users\\M.Kovalek\\IdeaProjects\\Example_of_Streams_and_Files\\src\\" +
-                "fileForWritingResultOfTask.txt");
+        final Path pathFirstAdding = Paths.get("src\\fileForWritingRandomNumbers.txt");
+        final Path pathSecondAdding = Paths.get("src\\fileForWritingResultOfTask.txt");
 
         //указываем путь и кодировку для файла-записи рандомных чисел.
         //отлавливаем возможное исключение на отсуствие файла для записи.
