@@ -48,7 +48,7 @@ public class Example_of_Streams_and_Files {
                 //исключаем только уникальные числа.
                 .distinct()
                 //сортируем в порядке возрастания.
-                .sorted()
+                .sorted((Comparator.reverseOrder()))
                 //собираем элементы Stream'a в List.
                 .collect(Collectors.toList());
 
